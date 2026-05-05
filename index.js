@@ -12,3 +12,6 @@ function truncate(str, len) {
 function slugify(str) {
     return str.toLowerCase().replace(/\s+/g, "-");
 }
+function countWords(str) {
+    return str.split(" ").length;
+}
